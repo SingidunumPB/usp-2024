@@ -11,5 +11,12 @@ public class Product : Entity
     public User User { get; set; }
     
     public One<User> ReferencedOneToOneUser { get; set; }
-    public Category Category { get; set; }
+    
+    public Many<User, Product> ReferencedOneToManyUser { get; set; }
+    // public Category Category { get; set; }
+
+    public Product()
+    {
+        this.InitOneToMany(() => ReferencedOneToManyUser);
+    }
 }

@@ -15,18 +15,27 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
     {
         var userEntity = new User
         {
+            Email = "pbisevac@singidunuma.ac.rs",
+            FirstName = "Petar",
+            LastName = "Bisevac",
+        };
+
+        var userEntity2 = new User
+        {
             Email = "pbisevac2@singidunuma.ac.rs",
             FirstName = "Petar2",
             LastName = "Bisevac2",
         };
 
         await userEntity.SaveAsync(cancellation: cancellationToken);
-        
-        var entity = request.Product.ToEntityFromCreateDto(userEntity, new One<User>(userEntity));
+        await userEntity2.SaveAsync(cancellation: cancellationToken);
 
+        var entity = request.Product.ToEntityFromCreateDto(userEntity, new One<User>(userEntity));
         await entity.SaveAsync(cancellation: cancellationToken);
-        var dto = entity.ToDto();
-        
+        await entity.ReferencedOneToManyUser.AddAsync([userEntity2, userEntity], cancellation: cancellationToken);
+
+        var dto = await entity.ToDtoAsync();
+
         return dto;
     }
 }
