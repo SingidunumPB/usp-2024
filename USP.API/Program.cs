@@ -1,10 +1,15 @@
 using FluentValidation.AspNetCore;
+using MongoDB.Bson.Serialization;
 using USP.API.Filters;
 using USP.API.Services;
 using USP.Application;
+using USP.Application.Common.Extensions;
+using USP.Domain.Enums;
 using USP.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+
+BsonSerializer.RegisterSerializer(typeof(Category), new SmartEnumSerializer<Category, int>());
 
 builder.Services.AddControllers(options => options.Filters.Add<ApiExceptionFilter>());
 builder.Services.AddFluentValidationAutoValidation();
