@@ -1,0 +1,17 @@
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\bin\Debug\net8.0\USP.Infrastructure.deps.json
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\bin\Debug\net8.0\USP.Infrastructure.dll
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\bin\Debug\net8.0\USP.Infrastructure.pdb
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\bin\Debug\net8.0\USP.Application.dll
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\bin\Debug\net8.0\USP.Domain.dll
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\bin\Debug\net8.0\USP.Application.pdb
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\bin\Debug\net8.0\USP.Domain.pdb
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\USP.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\USP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\USP.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\USP.Infrastructure.AssemblyInfo.cs
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\USP.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\USP.Infr.EC178548.Up2Date
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\USP.Infrastructure.dll
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\refint\USP.Infrastructure.dll
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\USP.Infrastructure.pdb
+C:\Users\petar\RiderProjects\USP\USP.Infrastructure\obj\Debug\net8.0\ref\USP.Infrastructure.dll

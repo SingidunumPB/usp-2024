@@ -1,0 +1,12 @@
+C:\Users\petar\RiderProjects\USP\USP.Domain\bin\Debug\net8.0\USP.Domain.deps.json
+C:\Users\petar\RiderProjects\USP\USP.Domain\bin\Debug\net8.0\USP.Domain.dll
+C:\Users\petar\RiderProjects\USP\USP.Domain\bin\Debug\net8.0\USP.Domain.pdb
+C:\Users\petar\RiderProjects\USP\USP.Domain\obj\Debug\net8.0\USP.Domain.csproj.AssemblyReference.cache
+C:\Users\petar\RiderProjects\USP\USP.Domain\obj\Debug\net8.0\USP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petar\RiderProjects\USP\USP.Domain\obj\Debug\net8.0\USP.Domain.AssemblyInfoInputs.cache
+C:\Users\petar\RiderProjects\USP\USP.Domain\obj\Debug\net8.0\USP.Domain.AssemblyInfo.cs
+C:\Users\petar\RiderProjects\USP\USP.Domain\obj\Debug\net8.0\USP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\petar\RiderProjects\USP\USP.Domain\obj\Debug\net8.0\USP.Domain.dll
+C:\Users\petar\RiderProjects\USP\USP.Domain\obj\Debug\net8.0\refint\USP.Domain.dll
+C:\Users\petar\RiderProjects\USP\USP.Domain\obj\Debug\net8.0\USP.Domain.pdb
+C:\Users\petar\RiderProjects\USP\USP.Domain\obj\Debug\net8.0\ref\USP.Domain.dll
