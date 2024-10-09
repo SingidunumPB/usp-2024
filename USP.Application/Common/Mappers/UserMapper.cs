@@ -11,6 +11,17 @@ public static partial class UserMapper
     public static partial UserDetailsDto ToDto(this User entity);
     public static partial User ToEntity(this UserDetailsDto dto);
 
+    public static User ToEntity(this EditUserDto dto)
+    {
+        return new User
+        {
+            ID = (string.IsNullOrEmpty(dto.ID) ? null : dto.ID) ?? string.Empty,
+            FirstName = dto.FirstName,
+            LastName = dto.LastName,
+            Email = dto.Email
+        };
+    }
+
     public static ListUserDetailsDto ToListDto(this Many<User, Domain.Entities.Product> manyEntities)
     {
         var listDto = new List<UserDetailsDto>();

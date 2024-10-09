@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using USP.Application.Product.Commands;
-using USP.Application.Product.Queries;
+using USP.Application.Products.Commands;
+using USP.Application.Products.Queries;
 
 namespace USP.API.Controllers;
 

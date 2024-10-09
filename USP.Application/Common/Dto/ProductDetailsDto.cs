@@ -5,4 +5,6 @@ public record ProductDetailsDto(
     string Description,
     decimal Price,
     UserDetailsDto ReferencerOneToOneUser,
-    ListUserDetailsDto ReferencerOneToManyUser);
+    ListUserDetailsDto ReferencerOneToManyUser,
+    ListUserDetailsDto ReferencerManyToManyUser
+);

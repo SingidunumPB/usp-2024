@@ -3,7 +3,7 @@ using MongoDB.Entities;
 using USP.Application.Common.Dto;
 using USP.Application.Common.Mappers;
 
-namespace USP.Application.Product.Queries;
+namespace USP.Application.Products.Queries;
 
 public record GetOneProductQuery(string Id) : IRequest<ProductDetailsDto?>;
 
