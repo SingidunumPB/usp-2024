@@ -9,7 +9,8 @@ using USP.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-BsonSerializer.RegisterSerializer(typeof(Category), new SmartEnumSerializer<Category, int>());
+// BsonSerializer.RegisterSerializer(typeof(Category), new SmartEnumSerializer<Category, int>());
+BsonSerializer.RegisterSerializer(new SmartEnumSerializer<Category, int>());
 
 builder.Services.AddControllers(options => options.Filters.Add<ApiExceptionFilter>());
 builder.Services.AddFluentValidationAutoValidation();
