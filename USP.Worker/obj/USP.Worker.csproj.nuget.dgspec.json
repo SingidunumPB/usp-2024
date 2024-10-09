@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\petar\\RiderProjects\\USP\\USP.Worker\\USP.Worker.csproj": {}
+    "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\USP.Worker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\petar\\RiderProjects\\USP\\USP.Worker\\USP.Worker.csproj": {
+    "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\USP.Worker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petar\\RiderProjects\\USP\\USP.Worker\\USP.Worker.csproj",
+        "projectUniqueName": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\USP.Worker.csproj",
         "projectName": "USP.Worker",
-        "projectPath": "C:\\Users\\petar\\RiderProjects\\USP\\USP.Worker\\USP.Worker.csproj",
+        "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\USP.Worker.csproj",
         "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petar\\RiderProjects\\USP\\USP.Worker\\obj\\",
+        "outputPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config"

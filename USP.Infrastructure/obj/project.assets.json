@@ -1235,11 +1235,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\petar\\RiderProjects\\USP\\USP.Infrastructure\\USP.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure\\USP.Infrastructure.csproj",
       "projectName": "USP.Infrastructure",
-      "projectPath": "C:\\Users\\petar\\RiderProjects\\USP\\USP.Infrastructure\\USP.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure\\USP.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\petar\\RiderProjects\\USP\\USP.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1254,8 +1254,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\petar\\RiderProjects\\USP\\USP.Application\\USP.Application.csproj": {
-              "projectPath": "C:\\Users\\petar\\RiderProjects\\USP\\USP.Application\\USP.Application.csproj"
+            "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj": {
+              "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj"
             }
           }
         }
