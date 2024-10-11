@@ -119,3 +119,5 @@ C:\Users\petar\OneDrive\Documents\GitHub\usp-2024\USP.API\obj\Debug\net8.0\refin
 C:\Users\petar\OneDrive\Documents\GitHub\usp-2024\USP.API\obj\Debug\net8.0\USP.API.pdb
 C:\Users\petar\OneDrive\Documents\GitHub\usp-2024\USP.API\obj\Debug\net8.0\USP.API.genruntimeconfig.cache
 C:\Users\petar\OneDrive\Documents\GitHub\usp-2024\USP.API\obj\Debug\net8.0\ref\USP.API.dll
+C:\Users\petar\OneDrive\Documents\GitHub\usp-2024\USP.API\bin\Debug\net8.0\USP.Worker.dll
+C:\Users\petar\OneDrive\Documents\GitHub\usp-2024\USP.API\bin\Debug\net8.0\USP.Worker.pdb

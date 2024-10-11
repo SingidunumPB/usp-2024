@@ -37,4 +37,18 @@ public static partial class ProductMapper
 
         return entity;
     }
+
+    public static async Task<ProductEmbedded> ToEmbedded(this Product entity)
+    {
+        return new ProductEmbedded
+        {
+            Name = entity.Name,
+            Description = entity.Description,
+            Price = entity.Price,
+            User = entity.User,
+            ReferencedOneToOneUser = await entity.ReferencedOneToOneUser.ToEntityAsync(),
+            ReferencedOneToManyUser = entity.ReferencedOneToManyUser.ToListEntity(),
+            ReferencedManyToManyUser = entity.ReferencedManyToManyUser.ToListEntity()
+        };
+    }
 }

@@ -14,6 +14,7 @@
     <ItemGroup>
       <ProjectReference Include="..\USP.Application\USP.Application.csproj" />
       <ProjectReference Include="..\USP.Infrastructure\USP.Infrastructure.csproj" />
+      <ProjectReference Include="..\USP.Worker\USP.Worker.csproj" />
     </ItemGroup>
 
 </Project>
