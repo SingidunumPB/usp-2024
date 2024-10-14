@@ -1,0 +1,433 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.BaseTests\\USP.BaseTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.API\\USP.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.API\\USP.API.csproj",
+        "projectName": "USP.API",
+        "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.API\\USP.API.csproj",
+        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj": {
+                "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj"
+              },
+              "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure\\USP.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure\\USP.Infrastructure.csproj"
+              },
+              "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\USP.Worker.csproj": {
+                "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\USP.Worker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj",
+        "projectName": "USP.Application",
+        "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj",
+        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Domain\\USP.Domain.csproj": {
+                "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Domain\\USP.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Riok.Mapperly": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.BaseTests\\USP.BaseTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.BaseTests\\USP.BaseTests.csproj",
+        "projectName": "USP.BaseTests",
+        "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.BaseTests\\USP.BaseTests.csproj",
+        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.BaseTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.API\\USP.API.csproj": {
+                "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.API\\USP.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "MongoDB.Entities": {
+              "target": "Package",
+              "version": "[23.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Domain\\USP.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Domain\\USP.Domain.csproj",
+        "projectName": "USP.Domain",
+        "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Domain\\USP.Domain.csproj",
+        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MongoDB.Entities": {
+              "target": "Package",
+              "version": "[23.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure\\USP.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure\\USP.Infrastructure.csproj",
+        "projectName": "USP.Infrastructure",
+        "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure\\USP.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj": {
+                "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\USP.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\USP.Worker.csproj",
+        "projectName": "USP.Worker",
+        "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\USP.Worker.csproj",
+        "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj": {
+                "projectPath": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application\\USP.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
