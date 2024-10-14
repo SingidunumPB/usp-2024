@@ -15,4 +15,9 @@
       <ProjectReference Include="..\USP.API\USP.API.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Builders\Entities\" />
+      <Folder Include="Builders\Queries\" />
+    </ItemGroup>
+
 </Project>

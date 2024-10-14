@@ -22,10 +22,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Users\Commands\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\USP.BaseTests\USP.BaseTests.csproj" />
     </ItemGroup>
 
