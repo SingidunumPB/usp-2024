@@ -12,4 +12,10 @@ public class UserController(IUserService userService, IProductService productSer
         await Mediator.Send(command);
         return Ok();
     }
+    
+    [HttpGet]
+    public async Task<ActionResult> Test()
+    {
+        return Ok();
+    }
 }

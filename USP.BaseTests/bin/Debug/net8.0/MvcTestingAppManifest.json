@@ -1,0 +1,7 @@
+{
+  "USP.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.API",
+  "USP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Application",
+  "USP.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Domain",
+  "USP.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Infrastructure",
+  "USP.Worker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\petar\\OneDrive\\Documents\\GitHub\\usp-2024\\USP.Worker"
+}
