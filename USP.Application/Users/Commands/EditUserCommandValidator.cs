@@ -8,7 +8,7 @@ public class EditUserCommandValidator : AbstractValidator<EditUserCommand>
 {
     public EditUserCommandValidator()
     {
-        RuleFor(x => x.User).NotNull();
-        RuleFor(x => x.User).SetValidator(new EditUserDtoValidator());
+        // RuleFor(x => x.User).NotNull();
+        // RuleFor(x => x.User).SetValidator(new EditUserDtoValidator());
     }
 }

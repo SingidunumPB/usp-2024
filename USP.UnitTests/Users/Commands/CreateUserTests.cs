@@ -11,7 +11,7 @@ namespace USP.UnitTests.Users.Commands;
 
 public class CreateUserTests : Base
 {
-    private const string BaseUrl = "/api/User/Edit";
+    private const string BaseUrl = "api/User/Edit";
 
     [Fact]
     public async Task GetUserPagedListQuery_Filters_ReturnUserPagedList()
@@ -19,20 +19,19 @@ public class CreateUserTests : Base
         //Given (Arrange) - what is part of request
         var dto = new EditUserDto("-", "-", "-", null);
 
+        var test = JsonSerializer.Serialize(new EditUserCommand(dto));
+
         var requestBody = new StringContent(JsonSerializer.Serialize(new EditUserCommand(dto)),
             Encoding.UTF8,
             "application/json");
 
         //When (Act) - what we do with that data
         var response = await AnonymousClient.PostAsync(BaseUrl, requestBody);
-        var response2 = await AnonymousClient.GetAsync("/api/User/Test");
 
         //Then (Assert) - what is response
         using var _ = new AssertionScope();
 
         response.Should().NotBeNull();
         response.StatusCode.Should().Be(HttpStatusCode.OK);
-
-        await DB.Database("UspTests").Client.DropDatabaseAsync("UspTests");
     }
 }
