@@ -2204,7 +2204,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Testing": "8.0.10",
           "MongoDB.Entities": "23.1.1",
-          "USP.API": "1.0.0"
+          "USP.API": "1.0.0",
+          "xunit.extensibility.core": "2.5.3"
         },
         "runtime": {
           "USP.BaseTests.dll": {}
