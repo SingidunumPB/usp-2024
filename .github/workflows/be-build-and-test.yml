@@ -1,4 +1,4 @@
-name: Usp App start Tests
+name: USP App start Tests
 
 on:
   push:
@@ -17,6 +17,6 @@ jobs:
         with:
           dotnet-version: '8.0.x'
       - name: Build
-        run: dotnet build --configuration Release Usp.sln
+        run: dotnet build --configuration Release USP.sln
       - name: Test
-        run: dotnet test --configuration Release Usp.sln --no-build --verbosity normal --collect:"XPlat Code Coverage" --logger trx --results-directory coverage
+        run: dotnet test --configuration Release USP.sln --no-build --verbosity normal --collect:"XPlat Code Coverage" --logger trx --results-directory coverage
